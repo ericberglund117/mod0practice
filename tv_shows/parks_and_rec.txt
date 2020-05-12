@@ -1,0 +1,15 @@
+class TvShow
+
+attributes:
+mainCharacter (sting)
+numberOfDirectors (integer)
+numberOfCameras (integer)
+genre (array)
+moreThanOneSeason (boolean)
+
+methods:
+changeMainCharacter (change main character)
+addDirector (add one director)
+removeCamera (remove one camera)
+removeGenre (remove mystery genre)
+addSeason (change moreThanOneSeason to true)
