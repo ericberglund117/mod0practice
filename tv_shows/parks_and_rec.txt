@@ -2,14 +2,30 @@ class TvShow
 
 attributes:
 mainCharacter (sting)
-numberOfDirectors (integer)
+numberOfProducers (integer)
 numberOfCameras (integer)
 genre (array)
 moreThanOneSeason (boolean)
 
 methods:
 changeMainCharacter (change main character)
-addDirector (add one director)
-removeCamera (remove one camera)
-removeGenre (remove mystery genre)
-addSeason (change moreThanOneSeason to true)
+addProducer (add one producer)
+addCamera (remove one camera)
+removeGenre (remove one genre)
+season (change moreThanOneSeason to true)
+
+Instance: Parks and Rec
+
+attributes:
+mainCharacter = "Leslie Knope"
+numberOfProducers = 8
+numberOfCameras = 1
+genre = ["comedy", "sitcom", "mockumentary"]
+moreThanOneSeason = true
+
+methods:
+changeMainCharacter: main character = Ron Swanson)
+addProducer: producer = 9
+addCamera: camera = 2
+removeGenre: genre = ["sitcom", "mockumentary"]
+season: moreThanOneSeason = true 
